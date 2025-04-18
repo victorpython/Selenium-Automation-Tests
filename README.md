@@ -27,6 +27,7 @@ Instala Selenium con:
 
 ```bash
 pip install selenium
+```bash
 
 ## 🚀 Cómo usar
 Clona el repositorio:
@@ -34,6 +35,7 @@ Clona el repositorio:
 ```bash
 git clone https://github.com/tu_usuario/tu_repositorio.git
 cd tu_repositorio
+```bash
 
 Ejecuta los notebooks desde Jupyter o Visual Studio Code, según prefieras. Asegúrate de tener chromedriver:
 
