@@ -1,35 +1,23 @@
-# 🔍 SELENIUM INTRO TEST – WIKIPEDIA SEARCH AUTOMATION
+# Selenium Test Scripts
 
-Este script es una prueba básica utilizando **Selenium WebDriver con Python**. Automatiza una búsqueda en [Wikipedia](https://www.wikipedia.org/) y valida que el resultado sea correcto.
+Este repositorio contiene dos scripts de prueba automatizados con Selenium para comprobar la presencia de la palabra **“Selenium”** en la página oficial de la librería.
 
----
+## 📂 Estructura del repositorio
 
-## ⚙️ ¿QUÉ HACE EL SCRIPT?
+- **selenium_test_explicit_driver_path.py**  
+  Prueba que especifica explícitamente la ruta al ejecutable de ChromeDriver.
 
-1. Abre la página principal de Wikipedia.
-2. Introduce el texto “Selenium (software)” en el campo de búsqueda.
-3. Da clic en el botón de búsqueda.
-4. Valida que el título de la página cargada contenga la palabra **“Selenium”**.
-
----
-
-## ✅ ¿QUÉ VALIDACIONES SE AUTOMATIZAN?
-
-- Verifica que el campo de búsqueda esté disponible (espera explícita).
-- Verifica que el botón de búsqueda sea clickeable.
-- Valida que el resultado contenga el título esperado.
-- Imprime el título si todo sale bien; si no, lanza un error y lo imprime.
+- **selenium_test_default_driver_path.py**  
+  Prueba que asume que `chromedriver` está instalado y disponible en el `PATH` del sistema.
 
 ---
 
-## 📦 REQUISITOS
+## 🛠️ Requisitos
 
-- Python 3.x  
-- Selenium → `pip install selenium`  
-- ChromeDriver (agregado al PATH del sistema)  
-  *(o adapta el script para usar Firefox, Edge u otro navegador compatible)*
-
----
+1. **Python 3.7+**  
+2. **Selenium**  
+   ```bash
+   pip install selenium
 
 
 ## 👨‍💻 AUTOR
